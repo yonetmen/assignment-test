@@ -14,7 +14,7 @@ import se.fast2.assignment.services.PeopleService;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api")
+@RequestMapping("/people")
 public class PeopleResource {
 
     private final PeopleService service;
